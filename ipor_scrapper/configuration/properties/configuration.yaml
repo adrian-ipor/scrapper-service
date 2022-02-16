@@ -1,0 +1,43 @@
+io.ipor.scrapper:
+  ethereum:
+    node: ${ETHEREUM_NODE_URL}
+    contracts:
+      aave:
+        v1:
+          a-tokens:
+            DAI:
+              address: '0xfC1E690f61EFd961294b3e1Ce3313fBD8aa4f85d'
+            USDT:
+              address: '0x71fc860F7D3A592A4a98740e39dB31d25db65ae8'
+            USDC:
+              address: '0x9bA00D6856a4eDF4665BcA2C2309936572473B7E'
+          lending-pool:
+            address: '0x398eC7346DcD622eDc5ae82352F02bE94C62d119'
+            abi-path: 'external/aave_v1/LendingPool.json'
+            aave-v1-token-abi-path: 'external/aave_v1/aToken.json'
+    currencies:
+      DAI:
+        symbol: DAI
+        contract-address: '0x6B175474E89094C44Da98b954EedeAC495271d0F'
+        decimals: 18
+      USDT:
+        symbol: USDT
+        contract-address: '0xdAC17F958D2ee523a2206206994597C13D831ec7'
+        decimals: 6
+      USDC:
+        symbol: USDC
+        contract-address: '0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48'
+        decimals: 6
+    start-block-number: 9241200
+    end-block-number:
+                    enable:  True
+                    number:  9242500
+    read-block-number-step: 100
+  save-data:
+    file:
+      enable: true
+    elasticsearch:
+      enable: true
+      id: 92
+      host-name: ${ES_HOST_NAME}
+      port: ${ES_PORT}

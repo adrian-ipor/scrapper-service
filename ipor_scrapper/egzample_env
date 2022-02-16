@@ -1,0 +1,6 @@
+ETHEREUM_NODE_URL="https://please_type_address_of_ethereum_node"
+
+COMPOSE_PROJECT_NAME="ipor-scrapper"
+
+ES_HOST_NAME=""
+ES_PORT=

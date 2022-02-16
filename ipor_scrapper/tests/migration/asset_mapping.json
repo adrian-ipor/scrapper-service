@@ -1,0 +1,102 @@
+{
+
+  "properties": {
+    "blockNumber": {
+      "type": "keyword"
+    },
+    "timestamp": {
+      "type": "date",
+      "format": "epoch_second"
+    },
+    "indexTimestamp": {
+      "type": "date",
+      "format": "epoch_second"
+    },
+    "asset": {
+      "type": "keyword"
+    },
+    "indexSource":{
+      "type": "keyword"
+    },
+    "borrowRate": {
+      "type": "double"
+    },
+    "supplyRate": {
+      "type": "double"
+    },
+    "exchangeRate": {
+      "type": "double"
+    },
+    "totalBorrowsIBT": {
+      "type": "double"
+    },
+    "totalBorrowsUT": {
+      "type": "double"
+    },
+    "totalSupplyIBT": {
+      "type": "double"
+    },
+    "totalSupplyUT": {
+      "type": "double"
+    },
+    "utilisationRate": {
+      "type": "double"
+    },
+    "availableLiquidityRaw": {
+      "type": "keyword"
+    },
+    "totalStableDebtRaw": {
+      "type": "keyword"
+    },
+    "totalVariableDebtRaw": {
+      "type": "keyword"
+    },
+    "liquidityRateRaw": {
+      "type": "keyword"
+    },
+    "variableBorrowRateRaw": {
+      "type": "keyword"
+    },
+    "stableBorrowRateRaw": {
+      "type": "keyword"
+    },
+    "averageStableBorrowRateRaw": {
+      "type": "keyword"
+    },
+    "liquidityIndexRaw": {
+      "type": "keyword"
+    },
+    "variableBorrowIndexRaw": {
+      "type": "keyword"
+    },
+    "lastUpdateTimestamp": {
+      "type": "date",
+      "format": "epoch_second"
+    },
+    "totalSupplyRaw": {
+      "type": "keyword"
+    },
+    "stableBorrowRate": {
+      "type": "double"
+    },
+    "availableLiquidity": {
+      "type": "double"
+    },
+    "totalStableDebt": {
+      "type": "double"
+    },
+    "totalVariableDebt": {
+      "type": "double"
+    },
+    "averageStableBorrowRate": {
+      "type": "double"
+    },
+    "liquidityIndex": {
+      "type": "double"
+    },
+    "variableBorrowIndex": {
+      "type": "double"
+    }
+  }
+}
+}
