@@ -1,11 +1,11 @@
 [tool.poetry]
-name = "ipor-scrapper"
+name = "scrapper"
 version = "0.1.0"
 description = ""
-authors = ["Adrian Skawinski <adrian@ipor.io>"]
+authors = ["Adrian Skawinski <adrian.skawinski@gmail.com>"]
 
 [tool.poetry.dependencies]
-python = "3.9.10"
+python = "3.9.8"
 logger = "1.4"
 loguru = "0.5.3"
 pathlib = "1.0.1"

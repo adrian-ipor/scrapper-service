@@ -5,7 +5,7 @@ RUN apt-get update && apt-get install -y \
   && rm -rf /var/lib/apt/lists/*
 
 
-WORKDIR /usr/local/ipor-scrapper-aave-v1
+WORKDIR /usr/local/scrapper-aave-v1
 
 COPY poetry.lock poetry.lock
 COPY pyproject.toml pyproject.toml
@@ -15,6 +15,6 @@ RUN poetry install
 
 COPY . /usr/local/ipor-scrapper-aave-v1
 
-RUN ["chmod", "+x", "/usr/local/ipor-scrapper-aave-v1/ipor_scrapper.sh"]
+RUN ["chmod", "+x", "/usr/local/scrapper-aave-v1/scrapper.sh"]
 
-CMD /usr/local/ipor-scrapper-aave-v1/ipor_scrapper.sh
+CMD /usr/local/scrapper-aave-v1/scrapper.sh
