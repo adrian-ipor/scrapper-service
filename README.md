@@ -1,4 +1,4 @@
-# scrapper-service. web3
+# scrapper-service used web3
 
 
 A service that downloads data from node blockchain etherium via API and saves them to the elasicsearch database. Used here:
