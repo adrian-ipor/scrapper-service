@@ -6,3 +6,5 @@ A service that downloads data from node blockchain etherium via API and saves th
 - decker
 - poetry
 - web3
+
+Access to API through smart contracts.
